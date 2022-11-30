@@ -1,0 +1,30 @@
+{
+  "name": "aoc2022",
+  "version": "1.0.0",
+  "description": "Repository to keep solutions for Advent of Code 2022 edition. this time I decided to take it in Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "01-basic": "node src/01/basic.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minidmnv/aoc2022.git"
+  },
+  "author": "minidmnv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minidmnv/aoc2022/issues"
+  },
+  "homepage": "https://github.com/minidmnv/aoc2022#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.3"
+  }
+}
