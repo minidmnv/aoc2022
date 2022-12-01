@@ -3,7 +3,7 @@ import {FileSeparator} from "./fileSeparator";
 const fs = require('fs');
 
 const read = (dayDirectory: string): string => {
-  return fs.readFileSync(dayDirectory || "/input.txt", 'utf-8');
+  return fs.readFileSync("./src/" + dayDirectory + "/input.txt", 'utf-8');
 }
 
 export const readFile = (dayDirectory: string, separator: FileSeparator): string[] => {
