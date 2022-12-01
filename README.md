@@ -21,7 +21,10 @@ Repository to keep solutions for Advent of Code 2022 edition. this time I decide
 
 ### Run
 
+To run one of scripts
 > npm run 01-basic
+
+Very often advanced scripts are using basic scripts to not repeat myself.
 
 ## Structure
 - Tasks are grouped in directories with number named by complexity, so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
