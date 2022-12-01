@@ -44,3 +44,4 @@ In the example above, the top three Elves are the fourth Elf (with 24000 Calorie
 
 Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?
 
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/01-result.jpg?raw=true)
