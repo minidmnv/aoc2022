@@ -2,6 +2,14 @@
 
 Repository to keep solutions for Advent of Code 2022 edition. this time I decided to take it in Typescript.
 
+## Results
+
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/01-result.jpg?raw=true)
+
+|     Task    | Execution time | Iterations |
+|   ---       |----------------|    ---     |
+| 01 Basic    | TBD            |      1     |
+| 01 Advanced | TBD            |      1     |
 
 ## Usage
 
