@@ -2,9 +2,12 @@ import {readFile} from "../utils/file-utils";
 import {FileSeparator} from "../utils/fileSeparator";
 import { logResponse, measureMemoryAndTime } from '../utils/log-utils'
 
+const TASK_DATA = ["01", "Basic"];
+const TASK_LABEL = TASK_DATA.join(" ");
+
 export const basic_01 = async (logIt: boolean) => {
-  console.time("01 Basic")
-  const input = readFile('01', FileSeparator.LINE);
+  console.time(TASK_LABEL)
+  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
   const caloriesList = input.map(val => {
     return +val;
   })
@@ -21,8 +24,8 @@ export const basic_01 = async (logIt: boolean) => {
 
   const sortedResult = result.sort((a, b) => b - a);
 
-  logIt && logResponse("01 Basic", sortedResult[0]);
-  logIt && measureMemoryAndTime("01 Basic");
+  logIt && logResponse(TASK_LABEL, sortedResult[0]);
+  logIt && measureMemoryAndTime(TASK_LABEL);
 
   return sortedResult;
 };

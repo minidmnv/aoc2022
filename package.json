@@ -6,6 +6,8 @@
   "scripts": {
     "01-basic": "ts-node src/01/basic.ts",
     "01-advanced": "ts-node src/01/advanced.ts",
+    "02-basic": "ts-node src/02/basic.ts",
+    "02-advanced": "ts-node src/02/advanced.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
