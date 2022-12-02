@@ -4,7 +4,7 @@ Repository to keep solutions for Advent of Code 2022 edition. this time I decide
 
 ## Results
 
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/02-result.jpg?raw=true)
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/02-result.png?raw=true)
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/01-result.jpg?raw=true)
 
 | Task        | Execution time | Iterations | Project changes                    |
