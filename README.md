@@ -4,6 +4,7 @@ Repository to keep solutions for Advent of Code 2022 edition. this time I decide
 
 ## Results
 
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/03-result.png?raw=true)
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/02-result.png?raw=true)
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/01-result.jpg?raw=true)
 
@@ -13,6 +14,8 @@ Repository to keep solutions for Advent of Code 2022 edition. this time I decide
 | 01 Advanced | TBD            |      1     | Add logging functionalities, utils |
 | 02 Basic    | TBD            |      1     | Introduced task data/label         |
 | 02 Advanced | TBD            |      1     ||
+| 03 Basic    | TBD            |      1     |                                    |
+| 03 Advanced | TBD            |      1     | Initial memory taken               |
 
 ## Usage
 

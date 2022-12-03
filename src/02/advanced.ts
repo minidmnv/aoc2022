@@ -7,8 +7,10 @@ const TASK_DATA = ["02", "Advanced"];
 const TASK_LABEL = TASK_DATA.join(" ");
 
 export const advanced_02 = async (logIt: boolean) => {
-  console.time(TASK_LABEL)
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
+  const initial = process.memoryUsage().heapUsed / 1024 / 1024;
+  
+  console.time(TASK_LABEL);
+  const input = readFile(TASK_DATA[0], FileSeparator.LINE);;
 
   const result = input.map((values) => {
     const [his, wantedResult] = values.split(" ");
@@ -16,7 +18,7 @@ export const advanced_02 = async (logIt: boolean) => {
   }).reduce((acc, val) => acc + val, 0);
 
   logIt && logResponse(TASK_LABEL, result);
-  logIt && measureMemoryAndTime(TASK_LABEL);
+  logIt && measureMemoryAndTime(initial, TASK_LABEL);
 
   return ;
 };

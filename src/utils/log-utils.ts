@@ -2,9 +2,9 @@ export const logResponse = (task: string, response: any) => {
   console.log("Response for Task[", task, "]:", response);
 }
 
-export const measureMemoryAndTime = (taskLabel: string) => {
+export const measureMemoryAndTime = (initialMemory: number, taskLabel: string) => {
   console.timeEnd(taskLabel);
 
-  const used = process.memoryUsage().heapUsed / 1024 / 1024;
+  const used = process.memoryUsage().heapUsed / 1024 / 1024 - initialMemory;
   console.log(`${taskLabel} used around ${Math.round(used * 100) / 100} MB of memory`);
 }

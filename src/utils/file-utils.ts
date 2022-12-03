@@ -13,7 +13,9 @@ export const readFile = (dayDirectory: string, separator: FileSeparator): string
     case FileSeparator.LINE:
       const result: string[] = [];
       content.split(/\r?\n/).forEach(line =>  {
-        result.push(line);
+        if(line.length > 0) {
+          result.push(line);
+        }
       });
       return result;
 
