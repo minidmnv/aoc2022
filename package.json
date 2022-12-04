@@ -12,6 +12,11 @@
     "03-advanced": "ts-node src/03/advanced.ts",
     "04-basic": "ts-node src/04/basic.ts",
     "04-advanced": "ts-node src/04/advanced.ts",
+
+    "benchmark-1": "ts-node benchmarks/index.ts 1",
+    "benchmark-2": "ts-node benchmarks/index.ts 2",
+    "benchmark-3": "ts-node benchmarks/index.ts 3",
+    "benchmark-4": "ts-node benchmarks/index.ts 4",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,6 +35,7 @@
   "devDependencies": {
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "benchmarkify": "^3.0.0",
     "eslint": "^8.28.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.26.0",

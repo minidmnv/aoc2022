@@ -1,12 +1,12 @@
 import {readFile} from "../utils/file-utils";
 import {FileSeparator} from "../utils/fileSeparator";
-import { logResponse, measureMemoryAndTime } from '../utils/log-utils'
+import { logResponse } from '../utils/log-utils'
 
 const TASK_DATA = ["01", "Basic"];
 const TASK_LABEL = TASK_DATA.join(" ");
 
-export const basic_01 = async (logIt: boolean) => {
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE);;
+export const basic_01 = async (logIt: boolean): Promise<number[]> => {
+  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
   const caloriesList = input.map(val => {
     return +val;
   })

@@ -24,12 +24,12 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md) ⌛
 - ⏳
 
-| Task   | Execution time | Result                  | Complexity (1-3) | Solution Complexity O(n)  |
-|--------|----------------|-------------------------|------------------|---------------------------|
-| Day 01 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 02 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 03 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 04 | TBD / TBD      | :star: / :star: | :one:  / :one:   | TBD  / TBD                |
+| Task   | Execution time                | Result                  | Complexity (1-3) | Solution Complexity O(n)  |
+|--------|-------------------------------|-------------------------|------------------|---------------------------|
+| Day 01 | (3092 rps) (avg: 323μs) / TBD | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
+| Day 02 | (1147 rps) (avg: 872μs) / TBD | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
+| Day 03 | TBD / TBD                     | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
+| Day 04 | TBD / TBD                     | :star: / :star: | :one:  / :one:   | TBD  / TBD                |
 
 ## 🛠 Usage 🛠
 
@@ -49,10 +49,16 @@ To run one of scripts
 Very often advanced scripts are using basic scripts to not repeat myself, so You can get multiple results.
 
 ## 📂 Structure 📂
-- Tasks are grouped in directories with number of day and in files named by complexity, so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
+- Tasks are grouped in directories with number of day and in files named by complexity, 
+so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 - There will be also input.txt file in each directory
 - Utils scripts will be placed in utils directory
 - Benchmarks :incoming_envelope:
+
+* 📘 **src** - implementations
+* 📔 **assets** - various images, mainly
+* 📗 **tests** - tests for tasks
+*  📖 **benchamrks** - tasks benchmarks, one suite can have multiple benchmarks when there is more implementations for one task provided
 
 ## 🧙 Wants more? 🧙
 
