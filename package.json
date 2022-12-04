@@ -10,6 +10,8 @@
     "02-advanced": "ts-node src/02/advanced.ts",
     "03-basic": "ts-node src/03/basic.ts",
     "03-advanced": "ts-node src/03/advanced.ts",
+    "04-basic": "ts-node src/04/basic.ts",
+    "04-advanced": "ts-node src/04/advanced.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
