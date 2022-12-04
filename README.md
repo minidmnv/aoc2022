@@ -2,20 +2,45 @@
 
 Repository to keep solutions for Advent of Code 2022 edition. this time I decided to take it in Typescript.
 
+## [Advent of Code 2022](https://adventofcode.com/)
+
+Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
+
+To supply enough magical energy, the expedition needs to retrieve a minimum of fifty stars by December 25th. Although the Elves assure you that the grove has plenty of fruit, you decide to grab any fruit you see along the way, just in case.
+
+Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
+
 ## Results
 
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/03-result.png?raw=true)
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/02-result.png?raw=true)
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/01-result.jpg?raw=true)
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/results.png?raw=true)
 
-| Task        | Execution time | Iterations | Project changes                    |
-|-------------|----------------|    ---     |------------------------------------|
-| 01 Basic    | TBD            |      1     | Initial state                      |
-| 01 Advanced | TBD            |      1     | Add logging functionalities, utils |
-| 02 Basic    | TBD            |      1     | Introduced task data/label         |
-| 02 Advanced | TBD            |      1     ||
-| 03 Basic    | TBD            |      1     |                                    |
-| 03 Advanced | TBD            |      1     | Initial memory taken               |
+:star::star::star::star::star::star::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+:white_flower::white_flower::white_flower::white_flower::white_flower:
+
+### Tasks
+
+- [Day 1: Calorie Counting](https://github.com/minidmnv/aoc2022/blob/master/src/01/INSTRUCTION.md)
+- [Day 2: Rock Paper Scissors](https://github.com/minidmnv/aoc2022/blob/master/src/02/INSTRUCTION.md)
+- [Day 3: Rucksack Reorganization](https://github.com/minidmnv/aoc2022/blob/master/src/03/INSTRUCTION.md)
+- [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md)
+
+| Task        | Execution time | Result         | Complexity (1-3) | Solution Complexity O(n) |
+|-------------|----------------|----------------|------------------|--------------------------|
+| 01 Basic    | TBD            | :star:         | :one:            | TBD                      |
+| 01 Advanced | TBD            | :star:         | :one:            | TBD                      |
+| 02 Basic    | TBD            | :star:         | :one:            | TBD                      |
+| 02 Advanced | TBD            | :star:         | :one:            | TBD                      |
+| 03 Basic    | TBD            | :star:         | :one:            | TBD                      |
+| 03 Advanced | TBD            | :star:         | :one:            | TBD                      |
+| 04 Basic    | TBD            | :white_flower: | TBD              | TBD                      |
+| 04 Advanced | TBD            | :white_flower: | TBD              | TBD                      |
 
 ## Usage
 

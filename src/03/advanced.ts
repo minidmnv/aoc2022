@@ -8,8 +8,6 @@ const TASK_DATA = ['03', 'Advanced']
 const TASK_LABEL = TASK_DATA.join(' ')
 
 export const advanced_03 = async (logIt: boolean) => {
-  const initial = process.memoryUsage().heapUsed / 1024 / 1024;
-  console.time(TASK_LABEL);
   const input = readFile(TASK_DATA[0], FileSeparator.LINE);
   let result = 0;
 
@@ -29,7 +27,6 @@ export const advanced_03 = async (logIt: boolean) => {
   }
 
   logIt && logResponse(TASK_LABEL, result)
-  logIt && measureMemoryAndTime(initial, TASK_LABEL)
 
   return result;
 }

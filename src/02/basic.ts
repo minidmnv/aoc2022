@@ -7,8 +7,6 @@ const TASK_DATA = ["02", "Basic"];
 const TASK_LABEL = TASK_DATA.join(" ");
 
 export const basic_02 = async (logIt: boolean) => {
-  const initial = process.memoryUsage().heapUsed / 1024 / 1024;
-  
   console.time(TASK_LABEL);
   const input = readFile(TASK_DATA[0], FileSeparator.LINE);;
 
@@ -18,7 +16,6 @@ export const basic_02 = async (logIt: boolean) => {
   }).reduce((acc, val) => acc + val, 0);
 
   logIt && logResponse(TASK_LABEL, result);
-  logIt && measureMemoryAndTime(initial, TASK_LABEL);
 
   return ;
 };
