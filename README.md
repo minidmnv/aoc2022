@@ -51,7 +51,7 @@ Very often advanced scripts are using basic scripts to not repeat myself, so You
 - Tasks are grouped in directories with number of day and in files named by complexity, so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 - There will be also input.txt file in each directory
 - Utils scripts will be placed in utils directory
-- Benchmarks :coming_soon:Dsy 4
+- Benchmarks :coming_soon:
 
 ## 🧙 Wants more? 🧙
 
