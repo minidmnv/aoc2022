@@ -32,11 +32,11 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md)
 
 | Task   | Execution time | Result          | Complexity (1-3) | Solution Complexity O(n)  |
-|--------|----------------|-----------------|------------------|---------------------------|
-| Day 01 | TBD / TBD      | :star: / :star: | :one:   / :one   | TBD  / TBD                |
-| Day 02 | TBD / TBD      | :star: / :star: | :one:   / :one   | TBD  / TBD                |
-| Day 03 | TBD / TBD      | :star: / :star: | :one:   / :one   | TBD  / TBD                |
-| Day 04 | TBD / TBD      | :white_flower: / :white_flower: | TBD  / TBD    | TBD  / TBD                |
+|--------|----------------|-----------------|-----------------|---------------------------|
+| Day 01 | TBD / TBD      | :star: / :star: | :one:   / :one: | TBD  / TBD                |
+| Day 02 | TBD / TBD      | :star: / :star: | :one:   / :one: | TBD  / TBD                |
+| Day 03 | TBD / TBD      | :star: / :star: | :one:   / :one: | TBD  / TBD                |
+| Day 04 | TBD / TBD      | :white_flower: / :white_flower: | TBD  / TBD      | TBD  / TBD                |
 
 ## Usage
 
