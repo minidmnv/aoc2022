@@ -28,7 +28,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day 01 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
 | Day 02 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
 | Day 03 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 04 | TBD / TBD      | :star: / :star: | :one  / :one:    | TBD  / TBD                |
+| Day 04 | TBD / TBD      | :star: / :star: | :one:  / :one:   | TBD  / TBD                |
 
 ## 🛠 Usage 🛠
 
