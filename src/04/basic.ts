@@ -22,4 +22,4 @@ export const basic_04 = async (logIt: boolean) => {
   return result;
 }
 
-basic_04(true)
+basic_04(true);

@@ -14,7 +14,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/results.png?raw=true)
 
-:star::star::star::star::star::star::star::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower:
+:star::star::star::star::star::star::star::star::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower:
 
 ### Tasks
 
@@ -28,7 +28,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day 01 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
 | Day 02 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
 | Day 03 | TBD / TBD      | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 04 | TBD / TBD      | :star: / :white_flower: | :one  / TBD      | TBD  / TBD                |
+| Day 04 | TBD / TBD      | :star: / :star: | :one  / :one:    | TBD  / TBD                |
 
 ## 🛠 Usage 🛠
 
@@ -51,7 +51,7 @@ Very often advanced scripts are using basic scripts to not repeat myself, so You
 - Tasks are grouped in directories with number of day and in files named by complexity, so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 - There will be also input.txt file in each directory
 - Utils scripts will be placed in utils directory
-- Benchmarks :coming_soon:
+- Benchmarks :incoming_envelope:
 
 ## 🧙 Wants more? 🧙
 

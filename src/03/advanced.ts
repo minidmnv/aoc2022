@@ -31,4 +31,4 @@ export const advanced_03 = async (logIt: boolean) => {
   return result;
 }
 
-advanced_03(true)
+advanced_03(true);
