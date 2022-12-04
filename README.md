@@ -21,7 +21,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 1: Calorie Counting](https://github.com/minidmnv/aoc2022/blob/master/src/01/INSTRUCTION.md) ⌛
 - [Day 2: Rock Paper Scissors](https://github.com/minidmnv/aoc2022/blob/master/src/02/INSTRUCTION.md) ⌛
 - [Day 3: Rucksack Reorganization](https://github.com/minidmnv/aoc2022/blob/master/src/03/INSTRUCTION.md) ⌛
-- [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md) ⏳
+- [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md) ⌛
+- ⏳
 
 | Task   | Execution time | Result                  | Complexity (1-3) | Solution Complexity O(n)  |
 |--------|----------------|-------------------------|------------------|---------------------------|
