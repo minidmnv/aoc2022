@@ -31,16 +31,12 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 3: Rucksack Reorganization](https://github.com/minidmnv/aoc2022/blob/master/src/03/INSTRUCTION.md)
 - [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md)
 
-| Task        | Execution time | Result         | Complexity (1-3) | Solution Complexity O(n) |
-|-------------|----------------|----------------|------------------|--------------------------|
-| 01 Basic    | TBD            | :star:         | :one:            | TBD                      |
-| 01 Advanced | TBD            | :star:         | :one:            | TBD                      |
-| 02 Basic    | TBD            | :star:         | :one:            | TBD                      |
-| 02 Advanced | TBD            | :star:         | :one:            | TBD                      |
-| 03 Basic    | TBD            | :star:         | :one:            | TBD                      |
-| 03 Advanced | TBD            | :star:         | :one:            | TBD                      |
-| 04 Basic    | TBD            | :white_flower: | TBD              | TBD                      |
-| 04 Advanced | TBD            | :white_flower: | TBD              | TBD                      |
+| Task   | Execution time | Result          | Complexity (1-3) | Solution Complexity O(n)  |
+|--------|----------------|-----------------|------------------|---------------------------|
+| Day 01 | TBD / TBD      | :star: / :star: | :one:   / :one   | TBD  / TBD                |
+| Day 02 | TBD / TBD      | :star: / :star: | :one:   / :one   | TBD  / TBD                |
+| Day 03 | TBD / TBD      | :star: / :star: | :one:   / :one   | TBD  / TBD                |
+| Day 04 | TBD / TBD      | :white_flower: / :white_flower: | TBD  / TBD    | TBD  / TBD                |
 
 ## Usage
 
