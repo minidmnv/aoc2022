@@ -7,7 +7,7 @@ const TASK_DATA = ["02", "Basic"];
 const TASK_LABEL = TASK_DATA.join(" ");
 
 export const basic_02 = async (logIt: boolean) => {
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE);;
+  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
 
   const result = input.map((values) => {
     const [his, mine] = values.split(" ");
@@ -18,5 +18,3 @@ export const basic_02 = async (logIt: boolean) => {
 
   return ;
 };
-
-basic_02(true);

@@ -61,3 +61,25 @@ Priorities for these items must still be found to organize the sticker attachmen
 Find the item type that corresponds to the badges of each three-Elf group. What is the sum of the priorities of those item types?
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/03-result.png?raw=true)
+```
+=====================================
+  Advent of Code 2022 (TS) - Day 03  
+=====================================
+
+Platform info:
+==============
+   Darwin 21.3.0 arm64
+   Node.JS: 18.0.0
+   V8: 10.1.124.8-node.13
+   CPU: Apple M1 × 8
+   Memory: 16 GB
+
+Suite: Day 03
+✔ Day 03 - basic*               3,831 rps
+✔ Day 03 - advanced*            1,639 rps
+
+   Day 03 - basic* (#)          0%          (3,831 rps)   (avg: 261μs)
+   Day 03 - advanced*      -57.21%          (1,639 rps)   (avg: 609μs)
+-----------------------------------------------------------------------
+
+```

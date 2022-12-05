@@ -41,3 +41,24 @@ Now that you're correctly decrypting the ultra top secret strategy guide, you wo
 Following the Elf's instructions for the second column, what would your total score be if everything goes exactly according to your strategy guide?
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/02-result.png?raw=true)
+```
+=====================================
+Advent of Code 2022 (TS) - Day 02  
+=====================================
+
+Platform info:
+==============
+Darwin 21.3.0 arm64
+Node.JS: 18.0.0
+V8: 10.1.124.8-node.13
+CPU: Apple M1 × 8
+Memory: 16 GB
+
+Suite: Day 02
+✔ Day 02 - basic*               2,174 rps
+✔ Day 02 - advanced*            2,155 rps
+
+Day 02 - basic* (#)          0%          (2,174 rps)   (avg: 460μs)
+Day 02 - advanced*       -0.87%          (2,155 rps)   (avg: 464μs)
+-----------------------------------------------------------------------
+```

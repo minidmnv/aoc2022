@@ -26,5 +26,3 @@ export const basic_01 = async (logIt: boolean): Promise<number[]> => {
 
   return sortedResult;
 };
-
-basic_01(true);

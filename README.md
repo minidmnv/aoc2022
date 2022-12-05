@@ -12,9 +12,33 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## 🎄 Results 🎄
 
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/results.png?raw=true)
+:star::star:
+:star::star:
+:star::star:
+:star::star:
+:star::star:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
+:white_flower::white_flower:
 
-:star::star::star::star::star::star::star::star::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower::white_flower:
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/results.png?raw=true)
 
 ### Tasks
 
@@ -22,14 +46,16 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 2: Rock Paper Scissors](https://github.com/minidmnv/aoc2022/blob/master/src/02/INSTRUCTION.md) ⌛
 - [Day 3: Rucksack Reorganization](https://github.com/minidmnv/aoc2022/blob/master/src/03/INSTRUCTION.md) ⌛
 - [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md) ⌛
+- [Day 5: Supply Stacks](https://github.com/minidmnv/aoc2022/blob/master/src/05/INSTRUCTION.md) ⏳
 - ⏳
 
-| Task   | Execution time                | Result                  | Complexity (1-3) | Solution Complexity O(n)  |
-|--------|-------------------------------|-------------------------|------------------|---------------------------|
-| Day 01 | (3092 rps) (avg: 323μs) / TBD | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 02 | (1147 rps) (avg: 872μs) / TBD | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 03 | TBD / TBD                     | :star: / :star:         | :one:   / :one:  | TBD  / TBD                |
-| Day 04 | TBD / TBD                     | :star: / :star: | :one:  / :one:   | TBD  / TBD                |
+| Task   | Execution time            | Result            | Complexity (1-3)  | Solution Complexity O(n)  |
+|--------|---------------------------|-------------------|-------------------|---------------------------|
+| Day 01 | (4,737 rps) / (4,998 rps) | :star: / :star:   | :one:   / :one:   | TBD  / TBD                |
+| Day 02 | (2,174 rps) / (2,155 rps) | :star: / :star:   | :one:   / :one:   | TBD  / TBD                |
+| Day 03 | (3,831 rps) / (1,639 rps) | :star: / :star:   | :one:   / :one:   | TBD  / TBD                |
+| Day 04 | TBD / TBD                 | :star: / :star:   | :one:  / :one:    | TBD  / TBD                |
+| Day 05 | TBD / TBD                 | :star: / :star:   | :one:  / :one:    | TBD  / TBD                |
 
 ## 🛠 Usage 🛠
 
@@ -53,12 +79,12 @@ Very often advanced scripts are using basic scripts to not repeat myself, so You
 so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 - There will be also input.txt file in each directory
 - Utils scripts will be placed in utils directory
-- Benchmarks :incoming_envelope:
+- Benchmarks for everyday solutions together (basic + advanced)
 
 * 📘 **src** - implementations
 * 📔 **assets** - various images, mainly
 * 📗 **tests** - tests for tasks
-*  📖 **benchamrks** - tasks benchmarks, one suite can have multiple benchmarks when there is more implementations for one task provided
+*  📖 **benchmarks** - tasks benchmarks, one suite can have multiple benchmarks when there is more implementations for one task provided
 
 ## 🧙 Wants more? 🧙
 

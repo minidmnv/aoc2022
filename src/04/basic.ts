@@ -6,7 +6,7 @@ const TASK_DATA = ['04', 'Basic']
 const TASK_LABEL = TASK_DATA.join(' ')
 
 export const basic_04 = async (logIt: boolean) => {
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
+  const input = readFile(TASK_DATA[0], FileSeparator.LINE, true);
 
   const result = input
     .map(line => line.split(",")

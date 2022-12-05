@@ -1,14 +1,13 @@
 import { readFile } from '../utils/file-utils'
 import { FileSeparator } from '../utils/fileSeparator'
-import { logResponse, measureMemoryAndTime } from '../utils/log-utils'
-import { countCharCodePriority, countItemPriority, splitInHalf } from './utils'
-import { type } from 'os'
+import { logResponse } from '../utils/log-utils'
+import { countCharCodePriority } from './utils'
 
 const TASK_DATA = ['03', 'Advanced']
 const TASK_LABEL = TASK_DATA.join(' ')
 
 export const advanced_03 = async (logIt: boolean) => {
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
+  const input = readFile(TASK_DATA[0], FileSeparator.LINE, true);
   let result = 0;
 
   for (let i = 0; i < input.length / 3; i++) {
@@ -30,5 +29,3 @@ export const advanced_03 = async (logIt: boolean) => {
 
   return result;
 }
-
-advanced_03(true);

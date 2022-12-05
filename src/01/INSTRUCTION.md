@@ -45,3 +45,25 @@ In the example above, the top three Elves are the fourth Elf (with 24000 Calorie
 Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/01-result.jpg?raw=true)
+
+```
+=====================================
+  Advent of Code 2022 (TS) - Day 01  
+=====================================
+
+Platform info:
+==============
+   Darwin 21.3.0 arm64
+   Node.JS: 18.0.0
+   V8: 10.1.124.8-node.13
+   CPU: Apple M1 × 8
+   Memory: 16 GB
+
+Suite: Day 01
+✔ Day 01 - basic*               4,737 rps
+✔ Day 01 - advanced*            4,998 rps
+
+   Day 01 - basic* (#)          0%          (4,737 rps)   (avg: 211μs)
+   Day 01 - advanced*       +5.51%          (4,998 rps)   (avg: 200μs)
+-----------------------------------------------------------------------
+```

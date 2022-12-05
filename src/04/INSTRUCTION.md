@@ -58,3 +58,5 @@ In the above example, the first two pairs (2-4,6-8 and 2-3,4-5) don't overlap, w
 So, in this example, the number of overlapping assignment pairs is 4.
 
 In how many assignment pairs do the ranges overlap?
+
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/04-result.png?raw=true)
