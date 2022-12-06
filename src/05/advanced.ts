@@ -1,14 +1,10 @@
-import { readFile } from '../utils/file-utils'
-import { FileSeparator } from '../utils/fileSeparator'
-import { logResponse } from '../utils/log-utils'
+import {logResponse} from '../utils/log-utils'
 import {parseInitialState, parseInstruction} from "./utils";
 
 const TASK_DATA = ['05', 'Advanced']
 const TASK_LABEL = TASK_DATA.join(' ')
 
-export const advanced_05 = async (logIt: boolean) => {
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE);
-
+export const advanced_05 = async (input: string[], logIt: boolean) => {
   const inputHeaderEndIndex = input.indexOf("");
   const [header, instructions] = [input.slice(0, inputHeaderEndIndex - 1), input.slice(inputHeaderEndIndex + 1, input.length - 1)];
 
@@ -31,5 +27,3 @@ export const advanced_05 = async (logIt: boolean) => {
 
   return response;
 }
-
-advanced_05(true);

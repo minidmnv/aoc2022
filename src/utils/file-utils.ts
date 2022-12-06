@@ -25,5 +25,8 @@ export const readFile = (dayDirectory: string, separator: FileSeparator, omitBla
     case FileSeparator.COMMA:
       return [];
   }
+}
 
+export const readFileContent = (dayDirectory: string): string => {
+  return read(dayDirectory);
 }

@@ -1,4 +1,4 @@
-# 🧑‍🎄 Advent of Code 2022 (Typescript) 🧑‍🎄
+# 🧑‍🎄 Advent of Code :two::zero::two::two: (Typescript) 🧑‍🎄
 
 Repository to keep solutions for Advent of Code 2022 edition. this time I decided to take it in Typescript.
 
@@ -6,9 +6,9 @@ Repository to keep solutions for Advent of Code 2022 edition. this time I decide
 
 Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.
 
-To supply enough magical energy, the expedition needs to retrieve a minimum of fifty stars by December 25th. Although the Elves assure you that the grove has plenty of fruit, you decide to grab any fruit you see along the way, just in case.
+To supply enough magical energy, the expedition needs to retrieve a minimum of fifty :star:s by December 25th. Although the Elves assure you that the grove has plenty of fruit, you decide to grab any fruit you see along the way, just in case.
 
-Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
+Collect :star:s by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one :star:. Good luck!
 
 ## 🎄 Results 🎄
 
@@ -17,7 +17,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 :star::star:
 :star::star:
 :star::star:
-:white_flower::white_flower:
+:star::star:
 :white_flower::white_flower:
 :white_flower::white_flower:
 :white_flower::white_flower:
@@ -40,37 +40,49 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/results.png?raw=true)
 
-### Tasks
+### Tasks :white_check_mark:
 
 - [Day 1: Calorie Counting](https://github.com/minidmnv/aoc2022/blob/master/src/01/INSTRUCTION.md) ⌛
 - [Day 2: Rock Paper Scissors](https://github.com/minidmnv/aoc2022/blob/master/src/02/INSTRUCTION.md) ⌛
 - [Day 3: Rucksack Reorganization](https://github.com/minidmnv/aoc2022/blob/master/src/03/INSTRUCTION.md) ⌛
 - [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md) ⌛
-- [Day 5: Supply Stacks](https://github.com/minidmnv/aoc2022/blob/master/src/05/INSTRUCTION.md) ⏳
+- [Day 5: Supply Stacks](https://github.com/minidmnv/aoc2022/blob/master/src/05/INSTRUCTION.md) ⌛
+- [Day 6: Tuning Trouble](https://github.com/minidmnv/aoc2022/blob/master/src/06/INSTRUCTION.md) ⌛
 - ⏳
 
-| Task   | Execution time            | Result            | Complexity (1-3)  | Solution Complexity O(n)  |
-|--------|---------------------------|-------------------|-------------------|---------------------------|
-| Day 01 | (4,737 rps) / (4,998 rps) | :star: / :star:   | :one:   / :one:   | TBD  / TBD                |
-| Day 02 | (2,174 rps) / (2,155 rps) | :star: / :star:   | :one:   / :one:   | TBD  / TBD                |
-| Day 03 | (3,831 rps) / (1,639 rps) | :star: / :star:   | :one:   / :one:   | TBD  / TBD                |
-| Day 04 | TBD / TBD                 | :star: / :star:   | :one:  / :one:    | TBD  / TBD                |
-| Day 05 | TBD / TBD                 | :star: / :star:   | :one:  / :one:    | TBD  / TBD                |
+| Task   | Execution time            | Result            | Complexity (1-3)  | Solution O(n) |
+|--------|---------------------------|-------------------|-------------------|---------------|
+| Day 01 | (4,737 rps) / (4,998 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
+| Day 02 | (2,174 rps) / (2,155 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
+| Day 03 | (3,831 rps) / (1,639 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
+| Day 04 | (2,083 rps) / (2,065 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
+| Day 05 | (6,087 rps) / (5,574 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
+| Day 06 | (15,840 rps) / (858 rps)  | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
 
 ## 🛠 Usage 🛠
 
-### Use correct node version
+### Use correct node version :recycle:
 >nvm use
 
-### Install dependencies
+### Install dependencies :moneybag:
 > npm install
 
-### Run
+### Run  :rocket:
 
-To run one of scripts
-> npm run 01-basic
+Run scripts are named by days they are bound to:
 
-> npm run 02-advanced
+To run Day 01 scripts and log their responses, just type:
+> npm run 01
+ 
+### Tests :customs:
+
+To run tests:
+> npm run test
+
+### Benchmarks :bar_chart:
+
+Benchmarks are also in package.json, tu run benchmark, just use number of day with -benchmark after, for example:
+> npm run 4-benchmark
 
 Very often advanced scripts are using basic scripts to not repeat myself, so You can get multiple results.
 
@@ -81,9 +93,9 @@ so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 - Utils scripts will be placed in utils directory
 - Benchmarks for everyday solutions together (basic + advanced)
 
-* 📘 **src** - implementations
+* 📘 **src/${day} or utils** - implementations
 * 📔 **assets** - various images, mainly
-* 📗 **tests** - tests for tasks
+* 📗 **src/\_\_tests\_\_** - tests for tasks
 *  📖 **benchmarks** - tasks benchmarks, one suite can have multiple benchmarks when there is more implementations for one task provided
 
 ## 🧙 Wants more? 🧙
@@ -91,6 +103,7 @@ so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 Check out my colleagues repositories, who are also taking part in this year AoC.
 - [Contes](https://github.com/mateusz-bryll/AdventOfCode2022) (C#)
 - [Raghval](https://gitlab.com/arturmlody/adventofcode) (C#)
+- Zvolan? - we are waiting :)
 
 
 ## 🧑‍🍳 Author 🧑‍🍳

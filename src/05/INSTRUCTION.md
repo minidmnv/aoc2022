@@ -104,3 +104,23 @@ In this example, the CrateMover 9001 has put the crates in a totally different o
 Before the rearrangement process finishes, update your simulation so that the Elves know where they should stand to be ready to unload the final supplies. After the rearrangement procedure completes, what crate ends up on top of each stack?
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/05-result.png?raw=true)
+
+=====================================
+Advent of Code 2022 (TS) - Day 05  
+=====================================
+
+Platform info:
+==============
+Darwin 21.3.0 arm64
+Node.JS: 18.0.0
+V8: 10.1.124.8-node.13
+CPU: Apple M1 × 8
+Memory: 16 GB
+
+Suite: Day 05
+✔ Day 05 - basic*               6,087 rps
+✔ Day 05 - advanced*            5,574 rps
+
+Day 05 - basic* (#)          0%          (6,087 rps)   (avg: 164μs)
+Day 05 - advanced*       -8.42%          (5,574 rps)   (avg: 179μs)
+-----------------------------------------------------------------------

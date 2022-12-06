@@ -1,13 +1,9 @@
-import { readFile } from '../utils/file-utils'
-import { FileSeparator } from '../utils/fileSeparator'
-import { logResponse } from '../utils/log-utils'
+import {logResponse} from '../utils/log-utils'
 
 const TASK_DATA = ['04', 'Advanced']
 const TASK_LABEL = TASK_DATA.join(' ')
 
-export const advanced_04 = async (logIt: boolean) => {
-  const input = readFile(TASK_DATA[0], FileSeparator.LINE, true);
-
+export const advanced_04 = async (input: string[], logIt: boolean) => {
   const result = input
     .map(line => line.split(",")
       .map(section => section.split("-")))
@@ -29,5 +25,3 @@ export const advanced_04 = async (logIt: boolean) => {
 
   return result;
 }
-
-advanced_04(true);

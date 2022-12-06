@@ -60,3 +60,26 @@ So, in this example, the number of overlapping assignment pairs is 4.
 In how many assignment pairs do the ranges overlap?
 
 ![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/04-result.png?raw=true)
+
+```
+=====================================
+  Advent of Code 2022 (TS) - Day 04  
+=====================================
+
+Platform info:
+==============
+   Darwin 21.3.0 arm64
+   Node.JS: 18.0.0
+   V8: 10.1.124.8-node.13
+   CPU: Apple M1 × 8
+   Memory: 16 GB
+
+Suite: Day 04
+✔ Day 04 - basic*               2,083 rps
+✔ Day 04 - advanced*            2,065 rps
+
+   Day 04 - basic* (#)          0%          (2,083 rps)   (avg: 480μs)
+   Day 04 - advanced*       -0.85%          (2,065 rps)   (avg: 484μs)
+-----------------------------------------------------------------------
+
+```
