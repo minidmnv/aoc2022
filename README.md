@@ -18,7 +18,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 :star::star:
 :star::star:
 :star::star:
-:white_flower::white_flower:
+:star::star:
 :white_flower::white_flower:
 :white_flower::white_flower:
 :white_flower::white_flower:
@@ -48,16 +48,18 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 4: Camp Cleanup](https://github.com/minidmnv/aoc2022/blob/master/src/04/INSTRUCTION.md) ⌛
 - [Day 5: Supply Stacks](https://github.com/minidmnv/aoc2022/blob/master/src/05/INSTRUCTION.md) ⌛
 - [Day 6: Tuning Trouble](https://github.com/minidmnv/aoc2022/blob/master/src/06/INSTRUCTION.md) ⌛
+- [Day 7: No Space Left On Device](https://github.com/minidmnv/aoc2022/blob/master/src/07/INSTRUCTION.md) ⌛
 - ⏳
 
-| Task   | Execution time            | Result            | Complexity (1-3)  | Solution O(n) |
-|--------|---------------------------|-------------------|-------------------|---------------|
-| Day 01 | (4,737 rps) / (4,998 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
-| Day 02 | (2,174 rps) / (2,155 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
-| Day 03 | (3,831 rps) / (1,639 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
-| Day 04 | (2,083 rps) / (2,065 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
-| Day 05 | (6,087 rps) / (5,574 rps) | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
-| Day 06 | (15,840 rps) / (858 rps)  | :star: / :star:   | :one:  / :one:    | TBD  / TBD    |
+| Task   | Execution time            | Result            | Complexity (1-3) |
+|--------|---------------------------|-------------------|------------------|
+| Day 01 | (4,737 rps) / (4,998 rps) | :star: / :star:   | :one:  / :one:   |
+| Day 02 | (2,174 rps) / (2,155 rps) | :star: / :star:   | :one:  / :one:   |
+| Day 03 | (3,831 rps) / (1,639 rps) | :star: / :star:   | :one:  / :one:   |
+| Day 04 | (2,083 rps) / (2,065 rps) | :star: / :star:   | :one:  / :one:   |
+| Day 05 | (6,087 rps) / (5,574 rps) | :star: / :star:   | :one:  / :one:   |
+| Day 06 | (15,840 rps) / (858 rps)  | :star: / :star:   | :one:  / :one:   |
+| Day 07 | (5,033 rps) / (4,422 rps) | :star: / :star:   | :one:  / :one:   |
 
 ## 🛠 Usage 🛠
 
@@ -67,7 +69,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 ### Install dependencies :moneybag:
 > npm install
 
-### Run  :rocket:
+### Run :rocket:
 
 Run scripts are named by days they are bound to:
 
@@ -102,8 +104,6 @@ so day 1 will be directory 01 with two files underneath basic.ts and advanced.ts
 
 Check out my colleagues repositories, who are also taking part in this year AoC.
 - [Contes](https://github.com/mateusz-bryll/AdventOfCode2022) (C#)
-- [Raghval](https://gitlab.com/arturmlody/adventofcode) (C#)
-- Zvolan? - we are waiting :)
 
 
 ## 🧑‍🍳 Author 🧑‍🍳
