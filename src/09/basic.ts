@@ -14,10 +14,10 @@ export const basic_09 = async (inputContent: string[], logIt: boolean) => {
 
   inputContent.forEach(line => {
     const instruction = parseInstruction(line);
-    const [newHead, newTail, newPoints] = moveRope(instruction, head, tail);
+    const [knots, newPoints] = moveRope(instruction, [head, tail]);
 
-    head = newHead;
-    tail = newTail;
+    head = knots[0];
+    tail = knots[1];
 
     newPoints.forEach((point: Point) => visited.get(point.y)?.add(point.x) || visited.set(point.y, new Set([point.x])));
   })

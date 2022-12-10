@@ -24,6 +24,7 @@
     "benchmark-6": "ts-node benchmarks/6-benchmarks.ts --esm",
     "benchmark-7": "ts-node benchmarks/7-benchmarks.ts --esm",
     "benchmark-8": "ts-node benchmarks/8-benchmarks.ts --esm",
+    "benchmark-9": "ts-node benchmarks/9-benchmarks.ts --esm",
     "test": "jest  2>&1"
   },
   "repository": {

@@ -68,4 +68,4 @@ This tree's scenic score is `8` (`2 * 2 * 1 * 2`); this is the ideal spot for th
 
 Consider each tree on your map. What is the highest scenic score possible for any tree?
 
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/07-result.png?raw=true)
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/08-result.png?raw=true)
