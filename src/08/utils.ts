@@ -1,8 +1,8 @@
+import {range} from "../utils/numbers-utils";
+
 export const setGridValue = (grid: any[][], y: number, x: number, value: any): void => {
   grid[y][x] = value;
 }
-
-const range = (start: number, end: number) => Array.from(Array(end - start + 1).keys()).map(x => x + start);
 
 export const checkVisibility = (griddedInput: string[][], y: number, x: number): boolean => {
   const height = griddedInput[y][x];

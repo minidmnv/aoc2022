@@ -50,6 +50,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 6: Tuning Trouble](https://github.com/minidmnv/aoc2022/blob/master/src/06) ⌛
 - [Day 7: No Space Left On Device](https://github.com/minidmnv/aoc2022/blob/master/src/07) ⌛
 - [Day 8: Treetop Tree House](https://github.com/minidmnv/aoc2022/blob/master/src/08) ⌛
+- [Day 9: Rope Bridge](https://github.com/minidmnv/aoc2022/blob/master/src/09) ⌛
 - ⏳
 
 | Task   | Execution time            | Result            | Complexity (1-3) |
@@ -61,7 +62,8 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 | Day 05 | (6,087 rps) / (5,574 rps) | :star: / :star:   | :one:  / :one:   |
 | Day 06 | (15,840 rps) / (858 rps)  | :star: / :star:   | :one:  / :one:   |
 | Day 07 | (5,033 rps) / (4,422 rps) | :star: / :star:   | :one:  / :one:   |
-| Day 08 | TBD / TBD                 | :star: / :star:   | :one:  / :one:   |
+| Day 08 | Need to be optimized ;)   | :star: / :star:   | :one:  / :two:   |
+| Day 09 | TBD / TBD                 | :star: / :star:   | :one:  / :one:   |
 
 ## 🛠 Usage 🛠
 

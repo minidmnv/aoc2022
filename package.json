@@ -14,6 +14,7 @@
     "06": "ts-node src/06/runner.ts --esm",
     "07": "ts-node src/07/runner.ts --esm",
     "08": "ts-node src/08/runner.ts --esm",
+    "09": "ts-node src/09/runner.ts --esm",
     "benchmark": "ts-node benchmarks/1-benchmarks.ts --esm",
     "benchmark-1": "ts-node benchmarks/1-benchmarks.ts --esm",
     "benchmark-2": "ts-node benchmarks/2-benchmarks.ts --esm",
