@@ -21,7 +21,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 :star::star:
 :star::star:
 :star::star:
-:white_flower::white_flower:
+:star::star:
 :white_flower::white_flower:
 :white_flower::white_flower:
 :white_flower::white_flower:
@@ -51,6 +51,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 7: No Space Left On Device](https://github.com/minidmnv/aoc2022/blob/master/src/07) ⌛
 - [Day 8: Treetop Tree House](https://github.com/minidmnv/aoc2022/blob/master/src/08) ⌛
 - [Day 9: Rope Bridge](https://github.com/minidmnv/aoc2022/blob/master/src/09) ⌛
+- [Day 10: Cathode-Ray Tube](https://github.com/minidmnv/aoc2022/blob/master/src/10) ⌛
 - ⏳
 
 | Task   | Execution time                | Result            | Complexity (1-3) |
@@ -64,6 +65,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 | Day 07 | (5,033 rps) / (4,422 rps)     | :star: / :star:   | :one:  / :one:   |
 | Day 08 | Need to be optimized ;)       | :star: / :star:   | :one:  / :two:   |
 | Day 09 | (618 rps) / (412 rps) as well | :star: / :star:   | :two:  / :two:   |
+| Day 10 | (8702 rps) / (4387 rps)       | :star: / :star:   | :one:  / :one:   |
 
 ## 🛠 Usage 🛠
 

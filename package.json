@@ -15,6 +15,7 @@
     "07": "ts-node src/07/runner.ts --esm",
     "08": "ts-node src/08/runner.ts --esm",
     "09": "ts-node src/09/runner.ts --esm",
+    "10": "ts-node src/10/runner.ts --esm",
     "benchmark": "ts-node benchmarks/1-benchmarks.ts --esm",
     "benchmark-1": "ts-node benchmarks/1-benchmarks.ts --esm",
     "benchmark-2": "ts-node benchmarks/2-benchmarks.ts --esm",
@@ -25,6 +26,7 @@
     "benchmark-7": "ts-node benchmarks/7-benchmarks.ts --esm",
     "benchmark-8": "ts-node benchmarks/8-benchmarks.ts --esm",
     "benchmark-9": "ts-node benchmarks/9-benchmarks.ts --esm",
+    "benchmark-10": "ts-node benchmarks/10-benchmarks.ts --esm",
     "test": "jest  2>&1"
   },
   "repository": {
