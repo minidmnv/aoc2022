@@ -52,6 +52,8 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 8: Treetop Tree House](https://github.com/minidmnv/aoc2022/blob/master/src/08) ⌛
 - [Day 9: Rope Bridge](https://github.com/minidmnv/aoc2022/blob/master/src/09) ⌛
 - [Day 10: Cathode-Ray Tube](https://github.com/minidmnv/aoc2022/blob/master/src/10) ⌛
+- [Day 11: Monkey in the Middle](https://github.com/minidmnv/aoc2022/blob/master/src/11) ⌛
+- [Day 12: Hill Climbing Algorithm](https://github.com/minidmnv/aoc2022/blob/master/src/12) ⏳
 - ⏳
 
 | Task   | Execution time                | Result            | Complexity (1-3) |
@@ -65,7 +67,8 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 | Day 07 | (5,033 rps) / (4,422 rps)     | :star: / :star:   | :one:  / :one:   |
 | Day 08 | Need to be optimized ;)       | :star: / :star:   | :one:  / :two:   |
 | Day 09 | (618 rps) / (412 rps) as well | :star: / :star:   | :two:  / :two:   |
-| Day 10 | (8702 rps) / (4387 rps)       | :star: / :star:   | :one:  / :one:   |
+| Day 10 | (23 422 rps) / (20966 rps)    | :star: / :star:   | :one:  / :one:   |
+| Day 11 | (8847 rps) / (LOL)            | :star: / :star:   | :one:  / :one:   |
 
 ## 🛠 Usage 🛠
 

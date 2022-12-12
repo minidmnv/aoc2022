@@ -317,7 +317,7 @@ Allowing the program to run to completion causes the CRT to produce the followin
 ```
 Render the image given by your program. What eight capital letters appear on your CRT?
 
-![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/09-result.png?raw=true)
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/10-result.png?raw=true)
 
 =====================================
 Advent of Code 2022 (TS) - Day 10  
@@ -332,9 +332,9 @@ CPU: Intel(R) Core(TM) i9-10850K CPU @ 3.60GHz × 20
 Memory: 64 GB
 
 Suite: Day 10
-√ Day 10 - basic*                8702 rps
-√ Day 10 - advanced*             4387 rps
+√ Day 10 - basic*              23 422 rps
+√ Day 10 - advanced*           20 966 rps
 
-Day 10 - basic* (#)          0%           (8702 rps)   (avg: 114μs)
-Day 10 - advanced*      -49,59%           (4387 rps)   (avg: 227μs)
+Day 10 - basic* (#)          0%         (23 422 rps)   (avg: 42μs)
+Day 10 - advanced*      -10,48%         (20 966 rps)   (avg: 47μs)
 -----------------------------------------------------------------------
