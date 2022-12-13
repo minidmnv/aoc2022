@@ -1,5 +1,5 @@
 import { readFile } from '../src/utils/file-utils'
-import { FileSeparator } from '../src/utils/fileSeparator'
+import { FileSeparator } from '../src/utils/file-separator'
 import { basic_11 } from '../src/11/basic'
 import { advanced_11 } from '../src/11/advanced'
 

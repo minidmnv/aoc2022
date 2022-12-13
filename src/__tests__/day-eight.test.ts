@@ -2,7 +2,7 @@ import {basic_08} from "../08/basic";
 import {advanced_08} from "../08/advanced";
 import {checkVisibility, countVisibility, setGridValue} from "../08/utils";
 import {readFile, readFileContent} from "../utils/file-utils";
-import {FileSeparator} from "../utils/fileSeparator";
+import {FileSeparator} from "../utils/file-separator";
 
 describe("Day 08 tests", () => {
   const TEST_INPUT = [

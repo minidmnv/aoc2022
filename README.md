@@ -53,7 +53,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 9: Rope Bridge](https://github.com/minidmnv/aoc2022/blob/master/src/09) ⌛
 - [Day 10: Cathode-Ray Tube](https://github.com/minidmnv/aoc2022/blob/master/src/10) ⌛
 - [Day 11: Monkey in the Middle](https://github.com/minidmnv/aoc2022/blob/master/src/11) ⌛
-- [Day 12: Hill Climbing Algorithm](https://github.com/minidmnv/aoc2022/blob/master/src/12) ⏳
+- [Day 12: Hill Climbing Algorithm](https://github.com/minidmnv/aoc2022/blob/master/src/12) ⌛
 - ⏳
 
 | Task   | Execution time                | Result            | Complexity (1-3) |

@@ -1,7 +1,7 @@
 import {advanced_04} from "../src/04/advanced";
 import {basic_04} from "../src/04/basic";
 import {readFile} from "../src/utils/file-utils";
-import {FileSeparator} from "../src/utils/fileSeparator";
+import {FileSeparator} from "../src/utils/file-separator";
 
 const DAY = '04';
 

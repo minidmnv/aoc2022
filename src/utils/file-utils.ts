@@ -1,4 +1,4 @@
-import {FileSeparator} from "./fileSeparator";
+import {FileSeparator} from "./file-separator";
 
 const fs = require('fs');
 

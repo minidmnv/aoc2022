@@ -1,6 +1,6 @@
 import {basic_08} from "./basic";
 import {readFile} from "../utils/file-utils";
-import {FileSeparator} from "../utils/fileSeparator";
+import {FileSeparator} from "../utils/file-separator";
 import {advanced_08} from "./advanced";
 
 const input = readFile('08', FileSeparator.LINE, true);
