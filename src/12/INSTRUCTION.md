@@ -31,3 +31,52 @@ In the above diagram, the symbols indicate whether the path exits each square mo
 This path reaches the goal in 31 steps, the fewest possible.
 
 What is the fewest steps required to move from your current position to the location that should get the best signal?
+
+### --- Part Two ---
+As you walk up the hill, you suspect that the Elves will want to turn this into a hiking trail. The beginning isn't very scenic, though; perhaps you can find a better starting point.
+
+To maximize exercise while hiking, the trail should start as low as possible: elevation `a`. The goal is still the square marked `E`. However, the trail should still be direct, taking the fewest steps to reach its goal. So, you'll need to find the shortest path from any square at elevation `a` to the square marked `E`.
+
+Again consider the example from above:
+
+```
+Sabqponm
+abcryxxl
+accszExk
+acctuvwj
+abdefghi
+```
+Now, there are six choices for starting position (five marked `a`, plus the square marked `S` that counts as being at elevation `a`). If you start at the bottom-left square, you can reach the goal most quickly:
+
+```
+...v<<<<
+...vv<<^
+...v>E^^
+.>v>>>^^
+>^>>>>>^
+```
+This path reaches the goal in only 29 steps, the fewest possible.
+
+What is the fewest steps required to move starting from any square with elevation `a` to the location that should get the best signal?
+
+```
+=====================================
+Advent of Code 2022 (TS) - Day 12  
+=====================================
+
+Platform info:
+==============
+Darwin 21.3.0 arm64
+Node.JS: 18.0.0
+V8: 10.1.124.8-node.13
+CPU: Apple M1 × 8
+Memory: 16 GB
+
+Suite: Day 12
+✔ Day 12 - basic*                 170 rps
+✔ Day 12 - advanced*              163 rps
+
+Day 12 - basic* (#)          0%            (170 rps)   (avg: 5ms)
+Day 12 - advanced*       -4.42%            (163 rps)   (avg: 6ms)
+-----------------------------------------------------------------------
+```

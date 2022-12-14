@@ -69,6 +69,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 | Day 09 | (618 rps) / (412 rps) as well | :star: / :star:   | :two:  / :two:   |
 | Day 10 | (23 422 rps) / (20966 rps)    | :star: / :star:   | :one:  / :one:   |
 | Day 11 | (8847 rps) / (LOL)            | :star: / :star:   | :one:  / :one:   |
+| Day 12 | (170 rps) / (163 rps)         | :star: / :star:   | :one:  / :one:   |
 
 ## 🛠 Usage 🛠
 
