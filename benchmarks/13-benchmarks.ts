@@ -1,6 +1,7 @@
-import { FileSeparator, readFile } from '../src/utils'
-import { basic_13 } from '../src/13/basic'
-import { advanced_13 } from '../src/13/advanced'
+import {readFile} from '../src/utils/file-utils'
+import {FileSeparator} from '../src/utils/file-separator'
+import {advanced_13} from "../src/13/advanced";
+import {basic_13} from "../src/13/basic";
 
 const DAY = '13';
 

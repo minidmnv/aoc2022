@@ -22,9 +22,9 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 :star::star:
 :star::star:
 :star::star:
-:white_flower::white_flower:
-:white_flower::white_flower:
-:white_flower::white_flower:
+:star::star:
+:star::star:
+:star::star:
 :white_flower::white_flower:
 :white_flower::white_flower:
 :white_flower::white_flower:
@@ -71,7 +71,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 | Day 10 | (23 422 rps) / (20966 rps)    | :star: / :star:   | :one:  / :one:   |
 | Day 11 | (8847 rps) / (LOL)            | :star: / :star:   | :one:  / :one:   |
 | Day 12 | (170 rps) / (163 rps)         | :star: / :star:   | :one:  / :one:   |
-| Day 13 | (170 rps) / (163 rps)         | :star: / :star:   | :one:  / :one:   |
+| Day 13 | (1,877 rps) / (772 rps)       | :star: / :star:   | :one:  / :one:   |
 
 ## 🛠 Usage 🛠
 
