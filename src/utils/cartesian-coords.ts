@@ -17,6 +17,20 @@ export class CartesianPoint extends Point {
 
 }
 
+export class GridPoint<T> {
+  constructor(public x: number, public y: number, public value: T) {}
+
+  toString(): string {
+    return `${this.x},${this.y},${this.value}`;
+  }
+
+  stringCoords(): string {
+    return `${this.x},${this.y}`;
+  }
+
+}
+
+
 export class Grid<T extends Point> {
   constructor(private points: T[][]) {}
 
