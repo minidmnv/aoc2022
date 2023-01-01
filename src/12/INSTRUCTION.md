@@ -59,6 +59,9 @@ This path reaches the goal in only 29 steps, the fewest possible.
 
 What is the fewest steps required to move starting from any square with elevation `a` to the location that should get the best signal?
 
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/12-result.png?raw=true)
+
+
 ```
 =====================================
 Advent of Code 2022 (TS) - Day 12  

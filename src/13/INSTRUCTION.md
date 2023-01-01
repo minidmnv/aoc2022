@@ -145,6 +145,9 @@ Afterward, locate the divider packets. To find the decoder key for this distress
 
 Organize all of the packets into the correct order. What is the decoder key for the distress signal?
 
+![preview](https://github.com/minidmnv/aoc2022/blob/master/assets/results/13-result.png?raw=true)
+
+
 ```
 =====================================
   Advent of Code 2022 (TS) - Day 13  
