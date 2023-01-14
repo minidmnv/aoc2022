@@ -76,3 +76,7 @@ export class Grid<T extends Point> {
     return this.getPoint(x, y);
   }
 }
+
+export const manhattanDistance = (points: Point[]): number => {
+  return Math.abs( Math.abs((points[0].x - points[1].x)) +  Math.abs((points[0].y - points[1].y)));
+}

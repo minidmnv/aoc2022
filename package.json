@@ -20,6 +20,7 @@
     "12": "ts-node src/12/runner.ts --esm",
     "13": "ts-node src/13/runner.ts --esm",
     "14": "ts-node src/14/runner.ts --esm",
+    "15": "ts-node src/15/runner.ts --esm",
     "benchmark": "ts-node benchmarks/1-benchmarks.ts --esm",
     "benchmark-1": "ts-node benchmarks/1-benchmarks.ts --esm",
     "benchmark-2": "ts-node benchmarks/2-benchmarks.ts --esm",
