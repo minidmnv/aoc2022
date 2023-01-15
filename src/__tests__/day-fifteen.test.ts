@@ -1,7 +1,8 @@
 import {advanced15} from "../15/advanced";
 import {basic15} from "../15/basic";
-import {createSensorBeaconModel} from "../15/utils";
+import {checkCoverRanges, createSensorBeaconModel} from "../15/utils";
 import {manhattanDistance, Point} from "../utils";
+import {SensorBeaconModel} from "../15/types";
 
 describe('Day 15 tests', () => {
   const TEST_INPUT: string[] = [
@@ -75,6 +76,52 @@ describe('Day 15 tests', () => {
     test('should count manhattan distance point in different quarter on x and y axis inverted', () => {
       expect(manhattanDistance([new Point(-3, -2), new Point(5, 5)])).toStrictEqual(15);
     });
+
+    test('should properly create and merge one range', () => {
+      expect(checkCoverRanges(sensorBeaconMap, 9).length).toStrictEqual(1);
+    });
+
+    test('should properly split range with beacon', () => {
+      expect(checkCoverRanges(sensorBeaconMap, 10).length).toStrictEqual(2);
+    });
+
+    test('should properly create ranges with gaps and sensors', () => {
+      expect(checkCoverRanges(sensorBeaconMap, 11).length).toStrictEqual(3);
+    });
+
+    test('should properly create length of ranges', () => {
+      const actual = checkCoverRanges(sensorBeaconMap, 11);
+      expect(actual[0].length()).toStrictEqual(3);
+      expect(actual[2].length()).toStrictEqual(11);
+    });
+
+    test('checkCoverRanges with minimum: SensorBeaconModel input values', () => {
+      const sensorBeaconModel: SensorBeaconModel = [
+        [new Point(1, 1), new Point(2, 1)],
+        [new Point(5, 1), new Point(6, 1)],
+        [new Point(8, 1), new Point(9, 1)]
+      ];
+      const ranges = checkCoverRanges(sensorBeaconModel, -Number.MAX_VALUE, -Number.MAX_VALUE, Number.MAX_VALUE);
+      expect(ranges).toEqual([
+        {start: -Number.MAX_VALUE, end: Number.MAX_VALUE},
+      ]);
+    });
+
+    test('checkCoverRanges with maximum input values', () => {
+      const sensorBeaconModel: SensorBeaconModel = [
+        [new Point(1, 1), new Point(2, 1)],
+        [new Point(5, 1), new Point(6, 1)],
+        [new Point(8, 1), new Point(9, 1)]
+      ];
+      const ranges = checkCoverRanges(sensorBeaconModel, Number.MAX_VALUE, -Number.MAX_VALUE, Number.MAX_VALUE);
+      expect(ranges).toEqual([
+        {start: -Number.MAX_VALUE, end: 1},
+        {start: 2, end: 5},
+        {start: 6, end: 8},
+        {start: 9, end: Number.MAX_VALUE},
+      ]);
+    });
+
   });
 
   describe('Day 15 basic tests', () => {
