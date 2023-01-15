@@ -12,6 +12,7 @@ module.exports = {
     project: ['./tsconfig.json']
   },
   rules: {
-    '@typescript-eslint/semi': ['error', 'always']
+    '@typescript-eslint/semi': ['error', 'always'],
+    '@typescript-eslint/strict-boolean-expressions': 0
   }
 }

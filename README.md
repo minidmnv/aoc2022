@@ -26,7 +26,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 :star::star:
 :star::star:
 :star::star:
-:white_flower::white_flower:
+:star::star:
 :white_flower::white_flower:
 :white_flower::white_flower:
 :white_flower::white_flower:
@@ -56,6 +56,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 12: Hill Climbing Algorithm](https://github.com/minidmnv/aoc2022/blob/master/src/12) ⌛
 - [Day 13: Distress Signal](https://github.com/minidmnv/aoc2022/blob/master/src/13) ⌛
 - [Day 14: Regolith Reservoir](https://github.com/minidmnv/aoc2022/blob/master/src/14) ⌛
+- [Day 15: Beacon Exclusion Zone](https://github.com/minidmnv/aoc2022/blob/master/src/15) ⌛
 - ⏳
 
 | Task   | Execution time                | Result            | Complexity (1-3) |
@@ -74,6 +75,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 | Day 12 | (170 rps) / (163 rps)         | :star: / :star:   | :one:  / :one:   |
 | Day 13 | (1,877 rps) / (772 rps)       | :star: / :star:   | :one:  / :one:   |
 | Day 14 | (---) / (---)                 | :star: / :star:   | :one:  / :one:   |
+| Day 15 | (---) / (---)                 | :star: / :star:   | :one:  / :two:   |
 
 ## 🛠 Usage 🛠
 

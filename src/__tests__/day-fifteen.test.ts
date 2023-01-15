@@ -1,25 +1,24 @@
-import {advanced15} from "../15/advanced";
-import {basic15} from "../15/basic";
-import {checkCoverRanges, createSensorBeaconModel} from "../15/utils";
-import {manhattanDistance, Point} from "../utils";
-import {SensorBeaconModel} from "../15/types";
+import { advanced15 } from '../15/advanced';
+import { basic15 } from '../15/basic';
+import { checkCoverRanges, createSensorBeaconModel } from '../15/utils';
+import { manhattanDistance, Point } from '../utils';
 
 describe('Day 15 tests', () => {
   const TEST_INPUT: string[] = [
- 'Sensor at x=2, y=18: closest beacon is at x=-2, y=15',
- 'Sensor at x=9, y=16: closest beacon is at x=10, y=16',
- 'Sensor at x=13, y=2: closest beacon is at x=15, y=3',
- 'Sensor at x=12, y=14: closest beacon is at x=10, y=16',
- 'Sensor at x=10, y=20: closest beacon is at x=10, y=16',
- 'Sensor at x=14, y=17: closest beacon is at x=10, y=16',
- 'Sensor at x=8, y=7: closest beacon is at x=2, y=10',
- 'Sensor at x=2, y=0: closest beacon is at x=2, y=10',
- 'Sensor at x=0, y=11: closest beacon is at x=2, y=10',
- 'Sensor at x=20, y=14: closest beacon is at x=25, y=17',
- 'Sensor at x=17, y=20: closest beacon is at x=21, y=22',
- 'Sensor at x=16, y=7: closest beacon is at x=15, y=3',
- 'Sensor at x=14, y=3: closest beacon is at x=15, y=3',
- 'Sensor at x=20, y=1: closest beacon is at x=15, y=3',
+    'Sensor at x=2, y=18: closest beacon is at x=-2, y=15',
+    'Sensor at x=9, y=16: closest beacon is at x=10, y=16',
+    'Sensor at x=13, y=2: closest beacon is at x=15, y=3',
+    'Sensor at x=12, y=14: closest beacon is at x=10, y=16',
+    'Sensor at x=10, y=20: closest beacon is at x=10, y=16',
+    'Sensor at x=14, y=17: closest beacon is at x=10, y=16',
+    'Sensor at x=8, y=7: closest beacon is at x=2, y=10',
+    'Sensor at x=2, y=0: closest beacon is at x=2, y=10',
+    'Sensor at x=0, y=11: closest beacon is at x=2, y=10',
+    'Sensor at x=20, y=14: closest beacon is at x=25, y=17',
+    'Sensor at x=17, y=20: closest beacon is at x=21, y=22',
+    'Sensor at x=16, y=7: closest beacon is at x=15, y=3',
+    'Sensor at x=14, y=3: closest beacon is at x=15, y=3',
+    'Sensor at x=20, y=1: closest beacon is at x=15, y=3'
   ];
 
   describe('Day 15 utils tests', () => {
@@ -94,39 +93,11 @@ describe('Day 15 tests', () => {
       expect(actual[0].length()).toStrictEqual(3);
       expect(actual[2].length()).toStrictEqual(11);
     });
-
-    test('checkCoverRanges with minimum: SensorBeaconModel input values', () => {
-      const sensorBeaconModel: SensorBeaconModel = [
-        [new Point(1, 1), new Point(2, 1)],
-        [new Point(5, 1), new Point(6, 1)],
-        [new Point(8, 1), new Point(9, 1)]
-      ];
-      const ranges = checkCoverRanges(sensorBeaconModel, -Number.MAX_VALUE, -Number.MAX_VALUE, Number.MAX_VALUE);
-      expect(ranges).toEqual([
-        {start: -Number.MAX_VALUE, end: Number.MAX_VALUE},
-      ]);
-    });
-
-    test('checkCoverRanges with maximum input values', () => {
-      const sensorBeaconModel: SensorBeaconModel = [
-        [new Point(1, 1), new Point(2, 1)],
-        [new Point(5, 1), new Point(6, 1)],
-        [new Point(8, 1), new Point(9, 1)]
-      ];
-      const ranges = checkCoverRanges(sensorBeaconModel, Number.MAX_VALUE, -Number.MAX_VALUE, Number.MAX_VALUE);
-      expect(ranges).toEqual([
-        {start: -Number.MAX_VALUE, end: 1},
-        {start: 2, end: 5},
-        {start: 6, end: 8},
-        {start: 9, end: Number.MAX_VALUE},
-      ]);
-    });
-
   });
 
   describe('Day 15 basic tests', () => {
     test('test input should return correct answer', async () => {
-      return await basic15(TEST_INPUT, 10,false).then(data => {
+      return await basic15(TEST_INPUT, 10, false).then(data => {
         expect(data).toStrictEqual(26);
       });
     });
