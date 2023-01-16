@@ -57,6 +57,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 13: Distress Signal](https://github.com/minidmnv/aoc2022/blob/master/src/13) ⌛
 - [Day 14: Regolith Reservoir](https://github.com/minidmnv/aoc2022/blob/master/src/14) ⌛
 - [Day 15: Beacon Exclusion Zone](https://github.com/minidmnv/aoc2022/blob/master/src/15) ⌛
+- [Day 16: Proboscidea Volcanium](https://github.com/minidmnv/aoc2022/blob/master/src/16) ⌛
 - ⏳
 
 | Task   | Execution time                | Result            | Complexity (1-3) |

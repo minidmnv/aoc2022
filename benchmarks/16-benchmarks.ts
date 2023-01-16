@@ -1,9 +1,9 @@
 import { readFile } from '../src/utils/file-utils';
 import { FileSeparator } from '../src/utils/file-separator';
-import { advanced15 } from '../src/15/advanced';
-import { basic15 } from '../src/15/basic';
+import { basic16 } from '../src/16/basic';
+import { advanced16 } from '../src/16/advanced';
 
-const DAY = '15';
+const DAY = '16';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const Benchmarkify = require('benchmarkify');
@@ -17,13 +17,13 @@ const bench = benchmark.createSuite('Day ' + DAY);
 // add reference
 // @ts-expect-error
 bench.ref(`Day ${DAY} - basic`, async done => {
-  await basic15(input, 2000000, false);
+  await basic16(input, false);
   done();
 });
 
 // @ts-expect-error
 bench.add(`Day ${DAY} - advanced`, async done => {
-  await advanced15(input, 0, 4000000, false);
+  await advanced16(input, false);
   done();
 });
 
