@@ -6,3 +6,4 @@ export * from './cartesian-coords';
 export * from './string-utils';
 export * from './algorithms';
 export * from './queue';
+export * from './graphs';
