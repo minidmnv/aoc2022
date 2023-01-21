@@ -27,7 +27,7 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 :star::star:
 :star::star:
 :star::star:
-:white_flower::white_flower:
+:star::star:
 :white_flower::white_flower:
 :white_flower::white_flower:
 :white_flower::white_flower:
@@ -60,23 +60,24 @@ Collect :star:s by solving puzzles. Two puzzles will be made available on each d
 - [Day 16: Proboscidea Volcanium](https://github.com/minidmnv/aoc2022/blob/master/src/16) ⌛
 - ⏳
 
-| Task   | Execution time                | Result            | Complexity (1-3) |
-|--------|-------------------------------|-------------------|------------------|
-| Day 01 | (4,737 rps) / (4,998 rps)     | :star: / :star:   | :one:  / :one:   |
-| Day 02 | (2,174 rps) / (2,155 rps)     | :star: / :star:   | :one:  / :one:   |
-| Day 03 | (3,831 rps) / (1,639 rps)     | :star: / :star:   | :one:  / :one:   |
-| Day 04 | (2,083 rps) / (2,065 rps)     | :star: / :star:   | :one:  / :one:   |
-| Day 05 | (6,087 rps) / (5,574 rps)     | :star: / :star:   | :one:  / :one:   |
-| Day 06 | (15,840 rps) / (858 rps)      | :star: / :star:   | :one:  / :one:   |
-| Day 07 | (5,033 rps) / (4,422 rps)     | :star: / :star:   | :one:  / :one:   |
-| Day 08 | Need to be optimized ;)       | :star: / :star:   | :one:  / :two:   |
-| Day 09 | (618 rps) / (412 rps) as well | :star: / :star:   | :two:  / :two:   |
-| Day 10 | (23 422 rps) / (20966 rps)    | :star: / :star:   | :one:  / :one:   |
-| Day 11 | (8847 rps) / (LOL)            | :star: / :star:   | :one:  / :one:   |
-| Day 12 | (170 rps) / (163 rps)         | :star: / :star:   | :one:  / :one:   |
-| Day 13 | (1,877 rps) / (772 rps)       | :star: / :star:   | :one:  / :one:   |
-| Day 14 | (---) / (---)                 | :star: / :star:   | :one:  / :one:   |
-| Day 15 | (---) / (---)                 | :star: / :star:   | :one:  / :two:   |
+| Task   | Execution time                | Result            | Complexity (1-3)   |
+|--------|-------------------------------|-------------------|--------------------|
+| Day 01 | (4,737 rps) / (4,998 rps)     | :star: / :star:   | :one:  / :one:     |
+| Day 02 | (2,174 rps) / (2,155 rps)     | :star: / :star:   | :one:  / :one:     |
+| Day 03 | (3,831 rps) / (1,639 rps)     | :star: / :star:   | :one:  / :one:     |
+| Day 04 | (2,083 rps) / (2,065 rps)     | :star: / :star:   | :one:  / :one:     |
+| Day 05 | (6,087 rps) / (5,574 rps)     | :star: / :star:   | :one:  / :one:     |
+| Day 06 | (15,840 rps) / (858 rps)      | :star: / :star:   | :one:  / :one:     |
+| Day 07 | (5,033 rps) / (4,422 rps)     | :star: / :star:   | :one:  / :one:     |
+| Day 08 | Need to be optimized ;)       | :star: / :star:   | :one:  / :two:     |
+| Day 09 | (618 rps) / (412 rps) as well | :star: / :star:   | :two:  / :two:     |
+| Day 10 | (23 422 rps) / (20966 rps)    | :star: / :star:   | :one:  / :one:     |
+| Day 11 | (8847 rps) / (LOL)            | :star: / :star:   | :one:  / :one:     |
+| Day 12 | (170 rps) / (163 rps)         | :star: / :star:   | :one:  / :one:     |
+| Day 13 | (1,877 rps) / (772 rps)       | :star: / :star:   | :one:  / :one:     |
+| Day 14 | (---) / (---)                 | :star: / :star:   | :one:  / :one:     |
+| Day 15 | (---) / (---)                 | :star: / :star:   | :one:  / :two:     |
+| Day 16 | (---) / (---)                 | :star: / :star:   | :three:  / :three: |
 
 ## 🛠 Usage 🛠
 
