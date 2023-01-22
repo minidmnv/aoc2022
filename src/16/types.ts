@@ -4,6 +4,14 @@ export interface Valve {
   valves: string[]
 };
 
+export interface State {
+  currentNode: string
+  alreadyOpened: Set<string>
+  elapsedTime: number
+  relievedPressure: number
+
+}
+
 export const valveFromLine = (inputLine: string): Valve => {
   const matchedRate = inputLine.match(/=(\d+);/);
   let flow = 0;

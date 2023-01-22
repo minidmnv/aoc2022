@@ -1,20 +1,42 @@
 import { Graph, logResponse, Node } from '../utils';
-import { Valve, valveFromLine } from './types';
+import { State, Valve, valveFromLine } from './types'
+import { Queue } from '../utils/queue/queue'
 
-const TASK_DATA = ['15', 'Basic'];
+const TASK_DATA = ['16', 'Basic'];
 const TASK_LABEL = TASK_DATA.join(' ');
 
 export const basic16 = async (inputContent: string[], remainingTime: number, logIt: boolean): Promise<any> => {
-  const valves = inputContent.map(line => valveFromLine(line));
-  const startingValve = valves.find(valve => valve.name === 'AA');
-  const nodes = new Map<Valve, Node<Valve>>();
-  const distances = new Map<Valve, >
+  const valves = inputContent.map(line => valveFromLine(line))
+    .reduce((map, valve) => {
+      return map.set(valve.name, valve);
+    }, new Map<string, Valve>());
+  const flowingValves = [...valves.entries()].filter(valve => valve[1].flow > 0);
 
-  valves.forEach(valve => nodes.set(valve, new Node<Valve>(valve)));
+  const startingValve = valves.get('AA');
+  const nodes = new Array(...valves.keys()).reduce((map, valve) => {
+    return map.set(valve, new Node<string>(valve));
+  }, new Map<string, Node<string>>());
 
-  new Graph().dfs(startingValve, (time: number) => time > 0);
+  const graph = new Graph<string>(nodes);
+  const distances = new Array(...nodes.keys()).reduce((map, valve) => {
+    return map.set(valve, graph.dijkstra(valve));
+  }, new Map<string, Map<string, number>>());
 
-  const response = 'fail';
+  let maxRelieved: number = 0;
+  const queue = new Queue<State>();
+
+  while (queue.length() > 0) {
+    //TODO: if all flowing valves are opened, wait until the end
+    //TODO: for every unopened valve, run simulation
+      //TODO: how long would moving to dest take? +1 to open the valve
+      //TODO: if opening the dest valve would exceed the time limit, wait until the end
+      //TODO: relieve pressure of opened valves while we move to dest and open it
+      //TODO: add opened valve to opened valves
+
+
+  }
+
+  const response = maxRelieved;
   logIt && logResponse(TASK_LABEL, response);
 
   return response;
