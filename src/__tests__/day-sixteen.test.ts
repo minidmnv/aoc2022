@@ -1,7 +1,7 @@
-import { advanced16 } from '../16/advanced'
-import { basic16 } from '../16/basic'
-import {Graph, Node} from "../utils";
-import {valveFromLine} from "../16/types";
+import { advanced16 } from '../16/advanced';
+import { basic16 } from '../16/basic';
+import { Graph, Node } from '../utils';
+import { valveFromLine } from '../16/types';
 
 describe('Day 16 tests', () => {
   const TEST_INPUT: string[] = [
@@ -27,12 +27,12 @@ describe('Day 16 tests', () => {
       cNode.addAdjacent(bNode);
       const aNode = new Node<string>('A', [fNode, eNode, bNode]);
       const graph = new Graph(new Map<string, Node<string>>([
-          [fNode.data, fNode],
-          [eNode.data, eNode],
-          [cNode.data, cNode],
-          [dNode.data, dNode],
-          [bNode.data, bNode],
-          [aNode.data, aNode],
+        [fNode.data, fNode],
+        [eNode.data, eNode],
+        [cNode.data, cNode],
+        [dNode.data, dNode],
+        [bNode.data, bNode],
+        [aNode.data, aNode]
       ]));
 
       expect(graph.dfs('A')).toStrictEqual(['A', 'B', 'D', 'E', 'C', 'F']);
@@ -43,7 +43,7 @@ describe('Day 16 tests', () => {
         name: 'AA',
         rate: 0,
         valves: ['DD', 'II', 'BB']
-      })
+      });
     });
 
     test('should create valve() for given input with 22 rate and single edge', () => {
@@ -51,7 +51,7 @@ describe('Day 16 tests', () => {
         name: 'HH',
         rate: 22,
         valves: ['GG']
-      })
+      });
     });
 
     test('should create valve() for given input with 2 rate and multiple edges', () => {
@@ -59,7 +59,7 @@ describe('Day 16 tests', () => {
         name: 'CC',
         rate: 2,
         valves: ['DD', 'BB']
-      })
+      });
     });
 
     test('should create valve() for given input with 20 rate and multiple edges', () => {
@@ -67,13 +67,13 @@ describe('Day 16 tests', () => {
         name: 'DD',
         rate: 20,
         valves: ['CC', 'AA', 'EE']
-      })
+      });
     });
   });
 
   describe('Day 16 basic tests', () => {
     test('test input should return correct answer', async () => {
-      return await basic16(TEST_INPUT, false).then(data => {
+      return await basic16(TEST_INPUT, 30, false).then(data => {
         expect(data).toStrictEqual(1651);
       });
     });

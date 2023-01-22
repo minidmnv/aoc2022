@@ -16,12 +16,12 @@ export class Queue<T extends IQueueable> implements IQueue<T> {
     return this.array.shift();
   }
 
-  enqueue (v: T) {
+  enqueue (v: T): void {
     this.array.push(v);
     this.elementsMap.set(v.toString(), v);
   }
 
-  length () {
+  length (): number {
     return this.array.length;
   }
 }

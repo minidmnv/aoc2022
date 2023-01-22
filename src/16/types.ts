@@ -9,7 +9,6 @@ export interface State {
   alreadyOpened: Set<string>
   elapsedTime: number
   relievedPressure: number
-
 }
 
 export const valveFromLine = (inputLine: string): Valve => {
