@@ -1,24 +1,17 @@
-import { Graph, logResponse, Node } from '../utils';
-import { State, Valve, valveFromLine } from './types';
-import { Queue } from '../utils/queue/queue';
-import { labelsToValves, waitTillEnd } from './utils';
+import {logResponse} from '../utils';
+import {State} from './types';
+import {Queue} from '../utils/queue/queue';
+import {createGraph, createValves, insertCheckState, labelsToValves, waitTillEnd} from './utils';
 
 const TASK_DATA = ['16', 'Basic'];
 const TASK_LABEL = TASK_DATA.join(' ');
 
 export const basic16 = async (inputContent: string[], remainingTime: number, logIt: boolean): Promise<any> => {
-  const valves = inputContent.map(line => valveFromLine(line))
-    .reduce((map, valve) => {
-      return map.set(valve.name, valve);
-    }, new Map<string, Valve>());
+  const valves = createValves(inputContent);
+
   const flowingValves = [...valves.entries()].filter(valve => valve[1].flow > 0);
-
-  const nodes = new Array(...valves.keys()).reduce((map, valve) => {
-    return map.set(valve, new Node<string>(valve));
-  }, new Map<string, Node<string>>());
-
-  const graph = new Graph<string>(nodes);
-  const distances = new Array(...nodes.keys()).reduce((map, valve) => {
+  const graph = createGraph(valves);
+  const distances = new Array(...valves.keys()).reduce((map, valve) => {
     return map.set(valve, graph.dijkstra(valve));
   }, new Map<string, Map<string, number>>());
 
@@ -34,7 +27,7 @@ export const basic16 = async (inputContent: string[], remainingTime: number, log
 
   while (queue.length() > 0) {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    const { currentNode, alreadyOpened, elapsedTime, relievedPressure } = queue.dequeue()!;
+    const {currentNode, alreadyOpened, elapsedTime, relievedPressure} = queue.dequeue()!;
 
     // if all flowing valves are opened, wait until the end
     if (alreadyOpened.size === flowingValves.length || elapsedTime >= 30) {
@@ -43,41 +36,38 @@ export const basic16 = async (inputContent: string[], remainingTime: number, log
       continue;
     }
 
+
     // for every unopened valve, run simulation
-    flowingValves.filter(flowing => ![...alreadyOpened.keys()].includes(flowing[0])).forEach(unopened => {
+    const unopened = flowingValves.filter(flowing => ![...alreadyOpened.keys()].includes(flowing[0]));
+    for (let i = 0; i < unopened.length; i++) {
+      const destination = unopened[i];
+
       // how long would moving to dest take? +1 to open the valve
-      const cost = distances.get(currentNode)?.get(unopened[0]) ?? 0;
+      const cost = (distances.get(currentNode)?.get(destination[0]) ?? 0) + 1;
       const newElapsed = elapsedTime + cost;
 
       // if opening the dest valve would exceed the time limit, wait until the end
       if (newElapsed >= 30) {
         const totalRelieved = waitTillEnd(30, elapsedTime, relievedPressure, labelsToValves(alreadyOpened, valves));
         maxRelieved = Math.max(maxRelieved, totalRelieved);
+
+        continue;
       }
 
       // relieve pressure of opened valves while we move to dest and open it
-      const newRelieved = relievedPressure + [...labelsToValves(alreadyOpened, valves).keys()].reduce((acc, valve) => acc + valve.flow, 0) * cost;
+      const newRelieved = relievedPressure + [...labelsToValves(alreadyOpened, valves).keys()]
+      .reduce((acc, valve) => acc + valve.flow, 0) * cost;
 
       // add opened valve to opened valves
-      alreadyOpened.add(unopened[0]);
+      const newOpened = new Set<string>(alreadyOpened).add(destination[0]);
 
       // insert opened valve set to already checked if it wasn't there
-      const checkState = JSON.stringify({
-        alreadyOpened,
+      insertCheckState({
+        alreadyOpened: newOpened,
         elapsedTime: newElapsed,
         relievedPressure: newRelieved
-      });
-
-      if (!checked.has(checkState)) {
-        checked.add(checkState);
-        queue.enqueue({
-          currentNode: unopened[0],
-          alreadyOpened,
-          elapsedTime: newElapsed,
-          relievedPressure: newRelieved
-        });
-      }
-    });
+      }, checked, queue, destination);
+    }
   }
 
   const response = maxRelieved;

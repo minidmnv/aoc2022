@@ -37,7 +37,7 @@
     "benchmark-12": "ts-node benchmarks/12-benchmarks.ts --esm",
     "benchmark-13": "ts-node benchmarks/13-benchmarks.ts --esm",
     "benchmark-14": "ts-node benchmarks/14-benchmarks.ts --esm",
-    "test": "jest  2>&1"
+    "test": "jest  2>& 1"
   },
   "repository": {
     "type": "git",
