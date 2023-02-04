@@ -13,6 +13,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/semi': ['error', 'always'],
-    '@typescript-eslint/strict-boolean-expressions': 0
+    '@typescript-eslint/strict-boolean-expressions': 0,
+    '@typescript-eslint/restrict-plus-operands': 0
   }
 }

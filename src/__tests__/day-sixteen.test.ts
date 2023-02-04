@@ -1,9 +1,9 @@
 import { advanced16 } from '../16/advanced';
 import { basic16 } from '../16/basic';
 import { Graph, Node } from '../utils';
-import {State, Valve, valveFromLine} from '../16/types';
-import {createGraph, createValves, insertCheckState} from "../16/utils";
-import {Queue} from "../utils/queue/queue";
+import { State, Valve, valveFromLine } from '../16/types';
+import { createGraph, createValves, insertCheckState } from '../16/utils';
+import { Queue } from '../utils/queue/queue';
 
 describe('Day 16 tests', () => {
   const TEST_INPUT: string[] = [
@@ -76,7 +76,6 @@ describe('Day 16 tests', () => {
     });
 
     describe('Dijkstra tests', () => {
-
       const distances = testDataGraph.dijkstra('AA');
 
       it('should count dijkstra for test data between nodes AA and DD = 1', () => {
@@ -93,7 +92,6 @@ describe('Day 16 tests', () => {
     });
 
     describe('insert check state tests', () => {
-
       const defaultDestination: [string, Valve] = ['FF', {
         name: 'FF',
         flow: 10,
@@ -103,8 +101,8 @@ describe('Day 16 tests', () => {
         alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
         elapsedTime: 15,
         relievedPressure: 100,
-        destination: defaultDestination,
-      }
+        destination: defaultDestination
+      };
 
       it('should insert new state when queue is empty', () => {
         const queue = new Queue<State>();
@@ -119,7 +117,7 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
       });
 
@@ -133,7 +131,7 @@ describe('Day 16 tests', () => {
 
         insertCheckState({
           ...defaultState,
-          elapsedTime: 12,
+          elapsedTime: 12
         }, checked, queue, defaultState.destination);
 
         expect(queue.length()).toStrictEqual(2);
@@ -141,13 +139,13 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
         expect(queue.dequeue()).toStrictEqual({
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 12,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
       });
 
@@ -161,7 +159,7 @@ describe('Day 16 tests', () => {
 
         insertCheckState({
           ...defaultState,
-          relievedPressure: 190,
+          relievedPressure: 190
         }, checked, queue, defaultState.destination);
 
         expect(queue.length()).toStrictEqual(2);
@@ -169,13 +167,13 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
         expect(queue.dequeue()).toStrictEqual({
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 190,
+          relievedPressure: 190
         });
       });
 
@@ -189,7 +187,7 @@ describe('Day 16 tests', () => {
 
         insertCheckState({
           ...defaultState,
-          alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'VV']),
+          alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'VV'])
         }, checked, queue, defaultState.destination);
 
         expect(queue.length()).toStrictEqual(2);
@@ -197,13 +195,13 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
         expect(queue.dequeue()).toStrictEqual({
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'VV']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
       });
 
@@ -216,7 +214,7 @@ describe('Day 16 tests', () => {
         }, checked, queue, defaultState.destination);
 
         insertCheckState({
-          ...defaultState,
+          ...defaultState
         }, checked, queue, defaultState.destination);
 
         expect(queue.length()).toStrictEqual(1);
@@ -224,7 +222,7 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
         expect(queue.dequeue()).toBeUndefined();
       });
@@ -243,7 +241,7 @@ describe('Day 16 tests', () => {
         }, checked, queue, defaultState.destination);
 
         insertCheckState({
-          ...defaultState,
+          ...defaultState
         }, checked, queue, differentDistination);
 
         expect(queue.length()).toStrictEqual(1);
@@ -251,7 +249,7 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
         expect(queue.dequeue()).toBeUndefined();
       });
@@ -266,7 +264,7 @@ describe('Day 16 tests', () => {
 
         insertCheckState({
           ...defaultState,
-          alreadyOpened: new Set<string>(['CC', 'ZZ', 'AA', 'KK']),
+          alreadyOpened: new Set<string>(['CC', 'ZZ', 'AA', 'KK'])
         }, checked, queue, defaultState.destination);
 
         expect(queue.length()).toStrictEqual(1);
@@ -274,12 +272,11 @@ describe('Day 16 tests', () => {
           currentNode: defaultDestination[0],
           alreadyOpened: new Set<string>(['AA', 'CC', 'ZZ', 'KK']),
           elapsedTime: 15,
-          relievedPressure: 100,
+          relievedPressure: 100
         });
         expect(queue.dequeue()).toBeUndefined();
       });
     });
-
   });
 
   describe('Day 16 basic tests', () => {
